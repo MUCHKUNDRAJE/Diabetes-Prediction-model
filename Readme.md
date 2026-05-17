@@ -203,11 +203,11 @@ X_test  = scaler.transform(X_test)
 
 | Model | Accuracy | AUC-ROC | Precision | Recall | F1 Score |
 |-------|----------|---------|-----------|--------|----------|
-| Logistic Regression | **74.68%** | **0.82** | 0.61 | **0.78** | 0.68 |
-| SVM | — | — | — | — | — |
-| KNN | — | — | — | — | — |
-| Naive Bayes | — | — | — | — | — |
-| Decision Tree | — | — | — | — | — |
+| 🥇 Logistic Regression | **74.68%** | **0.82** | 0.61 | **0.78** | **0.68** |
+| 🥈 KNN | 74.68% | 0.80 | **0.65** | 0.61 | 0.63 |
+| 🥉 SVM | 72.73% | 0.81 | 0.58 | **0.78** | 0.67 |
+| Naive Bayes | 72.73% | 0.80 | 0.59 | 0.70 | 0.64 |
+| Decision Tree | 70.13% | 0.64 | 0.60 | 0.44 | 0.51 |
 
 > Fill in your results after running the model comparison code.
 
